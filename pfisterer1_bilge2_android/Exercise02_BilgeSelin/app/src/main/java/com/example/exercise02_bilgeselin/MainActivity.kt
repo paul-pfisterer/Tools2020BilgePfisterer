@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
     fun thisIsANewMethod() {
         //2 bearbeitungsschritt
         // This is my ned Code line
-
+        //3 Bearbeitungsschritt
         Log.i("test", "Github message")
     }
 }
