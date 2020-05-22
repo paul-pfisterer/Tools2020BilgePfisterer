@@ -78,5 +78,7 @@ class MainActivity : AppCompatActivity() {
 
     fun thisIsANewMethod() {
 
+        // This is my ned Code line
+
     }
 }
