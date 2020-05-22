@@ -10,6 +10,9 @@ class MainActivity : AppCompatActivity() {
 
     // val for saving key
     private val key = "number"
+    
+    val awesome = "#vodkaSavedMyLife"
+    printl(awesome)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
