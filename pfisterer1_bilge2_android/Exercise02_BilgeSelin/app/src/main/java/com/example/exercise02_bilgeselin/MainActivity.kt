@@ -77,6 +77,6 @@ class MainActivity : AppCompatActivity() {
 
 
     fun thisIsANewMethod() {
-
+        Log.i("test", "Github message")
     }
 }
