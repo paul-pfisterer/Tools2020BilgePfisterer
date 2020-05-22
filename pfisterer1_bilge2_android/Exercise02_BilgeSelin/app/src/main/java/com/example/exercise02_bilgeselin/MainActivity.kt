@@ -80,5 +80,6 @@ class MainActivity : AppCompatActivity() {
 
         // This is my ned Code line
 
+        Log.i("test", "Github message")
     }
 }
