@@ -86,6 +86,7 @@ class MainActivity : AppCompatActivity() {
     fun bugFix() {
 
         // This method fixes bugs
+        // new line of code
 
     }
 
