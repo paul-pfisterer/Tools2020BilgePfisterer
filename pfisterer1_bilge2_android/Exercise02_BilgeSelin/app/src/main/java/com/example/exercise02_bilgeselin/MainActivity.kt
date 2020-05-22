@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // log information to check life circles
-        Log.i("TAG", "onCreateWasCalled()")
+        Log.i("TAG", "onCreateisUsed")
 
         // app starts and creates random number
         if(savedInstanceState == null){
@@ -32,38 +32,38 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         // log information to check life circles
-        Log.i("TAG", "onStartWasCalled()")
+        Log.i("TAG", "onStartisUsed")
     }
 
     override fun onResume() {
         super.onResume()
         // log information to check life circles
-        Log.i("TAG", "onResumeWasCalled()")
+        Log.i("TAG", "onResumeisUsed")
     }
 
     override fun onPause() {
         super.onPause()
         // log information to check life circles
-        Log.i("TAG", "onPauseWasCalled()")
+        Log.i("TAG", "onPauseisUsed")
     }
 
     override fun onStop() {
         super.onStop()
         // log information to check life circles
-        Log.i("TAG", "onStopWasCalled()")
+        Log.i("TAG", "onStopisUsed")
     }
 
     override fun onDestroy() {
         super.onDestroy()
         // log information to check life circles
-        Log.i("TAG", "onDestroyWasCalled()")
+        Log.i("TAG", "onDestroyisUsed")
 
     }
 
     override fun onRestart() {
         super.onRestart()
         // log information to check life circles
-        Log.i("TAG", "onRestartWasCalled()")
+        Log.i("TAG", "onRestartisUsed")
 
     }
 
