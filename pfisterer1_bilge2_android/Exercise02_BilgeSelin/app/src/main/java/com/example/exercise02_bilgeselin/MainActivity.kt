@@ -82,4 +82,12 @@ class MainActivity : AppCompatActivity() {
 
         Log.i("test", "Github message")
     }
+
+    fun bugFix() {
+
+        // This method fixes bugs
+
+    }
+
+
 }
