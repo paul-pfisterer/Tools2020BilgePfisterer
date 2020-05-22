@@ -75,4 +75,8 @@ class MainActivity : AppCompatActivity() {
         outState.putInt(key, textView.text.toString().toInt())
     }
 
+
+    fun thisIsANewMethod() {
+
+    }
 }
